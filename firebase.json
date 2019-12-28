@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/ng-tour-of-heroes",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
